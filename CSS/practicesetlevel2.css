@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#bar{
+background-color: rgba(146, 231, 143, 0.4);
+color: brown;
+}
+#bgimg{
+    /* background-image: url(../images/bgimg.cms);
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: gold url(../images/bgimg.cms) no-repeat center ;
+    background-size:contain;
+    height: 100px;
+    width: 100px;
+}
+main{
+    background-color: silver;
+    height: 400px;
+}

@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+#progressbar{
+    width: 95vw;
+    height: 20px;
+    border: 2px solid green;
+    background-color: greenyellow;
+border-radius: 10px;
+transition: width 5s ease-out;
+}
+.container{
+    width: 99%;
+    border: 2px solid black;
+    height: 20px;
+    border-radius: 12px;
+    background-color: aliceblue;
+}
+.bar{
+   
+    height: 20px;
+    border-radius: 12px;
+    background-color: hotpink;
+    animation: progressbar 3s ease-out  ;
+}
+@keyframes progressbar {
+    0%{width: 0%;}
+    90%{width: 98%;}
+    95%{width: 90%;}
+    100%{width: 100%;}
+}

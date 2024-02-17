@@ -1,0 +1,27 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(83, 83, 215);
+}
+button{
+    height: 70px;
+    width: 70px;
+    padding: 10px 15px;
+    margin: 100px;
+    border: 2px dotted red;
+    border-radius: 35px;
+}
+.boxsize{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+#box1{
+    background-color: fuchsia;
+    box-sizing: border-box;
+}
+#box2{
+    background-color: rgb(65, 53, 241);
+    box-sizing: content-box;
+}

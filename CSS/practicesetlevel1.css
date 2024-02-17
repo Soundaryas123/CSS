@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+/*this is the heading css*/
+#heading{
+    color: chartreuse;
+}
+#idselector{
+    color: blueviolet;
+}
+p{
+    color: hotpink
+}
+.secondheading{
+    color: aqua;
+}
+#first, #second{
+    color: brown;
+}
